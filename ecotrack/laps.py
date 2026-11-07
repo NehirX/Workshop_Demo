@@ -31,7 +31,11 @@ def format_lap_time(seconds):
     rest = seconds - minutes * 60
     return f"{minutes}:{rest:.2f}"
 
+
 def function(funcInput):
     """This is a placeholder function for future implementation."""
     print("example, function called with input:", funcInput)
     pass
+def print_lap_time(lap_times):
+    print("lap times: %d", lap_times)
+
